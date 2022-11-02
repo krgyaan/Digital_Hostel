@@ -1,3 +1,15 @@
+<?php
+
+@include 'config.php';
+
+session_start();
+
+if(!isset($_SESSION['user_name'])){
+   header('location:error.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +31,7 @@
           <p class="mt-4 text-gray-500">We can't find that page.</p>
       
           <a
-            href="/index.html"
+            href="../DgitalHostel/index.php"
             class="mt-6 inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring"
           >
             Go Back Home
