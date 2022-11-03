@@ -29,19 +29,19 @@
                         </li>
 
                         <li>
-                            <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
+                            <a class="text-gray-500 transition hover:text-gray-500/75" href="/error.php">
                                 About
                             </a>
                         </li>
 
                         <li>
-                            <a class="text-gray-500 transition hover:text-gray-500/75" href="/error.html">
+                            <a class="text-gray-500 transition hover:text-gray-500/75" href="/error.php">
                                 Gallery
                             </a>
                         </li>
 
                         <li>
-                            <a class="text-gray-500 transition hover:text-gray-500/75" href="/error.html">
+                            <a class="text-gray-500 transition hover:text-gray-500/75" href="/error.php">
                                 Services
                             </a>
                         </li>
